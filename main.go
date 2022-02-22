@@ -5,7 +5,7 @@ Copyright © 2022 NAME HERE <EMAIL ADDRESS>
 package main
 
 import (
-	"tem-ctl/scaffold/cmd"
+	"github.com/go-tempest/tem-ctl/scaffold/cmd"
 )
 
 func main() {

@@ -2,9 +2,9 @@ package cmd
 
 import (
     "fmt"
+    "github.com/go-tempest/tem-ctl/builder"
     "github.com/spf13/cobra"
     "os"
-    "tem-ctl/builder"
 )
 
 const (

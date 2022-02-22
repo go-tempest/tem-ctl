@@ -1,9 +1,9 @@
 package builder
 
 import (
-    codetpl "code-tpl/scaffold"
     "errors"
     "fmt"
+    codetpl "github.com/go-tempest/code-tpl/scaffold"
     "os"
     "path"
     "text/template"

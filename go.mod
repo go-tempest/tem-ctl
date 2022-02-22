@@ -1,4 +1,4 @@
-module tem-ctl
+module github.com/go-tempest/tem-ctl
 
 go 1.17
 
@@ -21,9 +21,9 @@ require (
 	gopkg.in/ini.v1 v1.66.4 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 
-	code-tpl v1.0.0
+	github.com/go-tempest/code-tpl v0.0.1
 )
 
 replace (
-	code-tpl v1.0.0 => ../code-tpl
+	github.com/go-tempest/code-tpl v0.0.1 => ../code-tpl
 )
