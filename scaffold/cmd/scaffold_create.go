@@ -50,7 +50,7 @@ func createSTR(dir, name string) {
     b := new(builder.STRBuilderFactory)
     projectDir, err := b.CreateSTRBuilder(builder.Project).Build(dir, name)
     checkErr(nil, err)
-rn
+
     checkErr(b.CreateSTRBuilder(builder.Handler).Build(projectDir))
     checkErr(b.CreateSTRBuilder(builder.Service).Build(projectDir))
     checkErr(b.CreateSTRBuilder(builder.Model).Build(projectDir))
